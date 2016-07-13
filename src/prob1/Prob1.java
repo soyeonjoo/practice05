@@ -10,8 +10,16 @@ public class Prob1 {
 		
 		String s = scanner.nextLine();
 		
+		
+		char[]a = s.toCharArray();//중요!!!!!!!!!!!
+		
 		/*  구현합니다. */
-
+		
+		for(int i=0;i<a.length;i++){
+			for(int j=0;j<=i;j++){
+				System.out.print(a[j]);
+			}System.out.println();
+		}
 		
 		
 		
